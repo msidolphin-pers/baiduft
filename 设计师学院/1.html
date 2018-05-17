@@ -19,15 +19,14 @@
 			width: 0;
 			height: 2px;
 			background: #4c65e9;
-			transition: all 0.2s linear;
-
+			transition: all 0.5s ease-out;
 			display: inline-block;
 			position: absolute;
 			top: 100%;
 			left: 50%;  /* 起始点为li的中点 */
 		}
 		li:hover:after {
-			left: 0;     /* 过度到0 */
+			left: 0;     /* 过渡到0 */
 			width: 100%; /* 长度同时增到到100% */
 		}
 		li:hover {
@@ -42,7 +41,6 @@
 	<li>C++</li>
 </ul>
 <script type="text/javascript">
-
 </script>
 </body>
 </html>
