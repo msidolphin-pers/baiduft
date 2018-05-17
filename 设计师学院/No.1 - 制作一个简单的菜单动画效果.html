@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>No.1 - 制作一个简单的菜单动画效果</title>
+	<style type="text/css">\
+		ul {
+			padding: 0;
+			margin: 0;
+		}
+		li {
+			padding: 0;
+			margin: 0;
+			float: left;
+			padding: 10px;
+			list-style: none;
+			cursor: pointer;
+			position: relative;
+		}
+		li:after {
+			content: '';
+			width: 0;
+			height: 2px;
+			background: #4c65e9;
+			transition: all 0.2s linear;
+			display: inline-block;
+			position: absolute;
+			top: 100%;
+			left: 50%;  /* 起始点为li的中点 */
+		}
+		li:hover:after {
+			left: 0;     /* 过度到0 */
+			width: 100%; /* 长度同时增到到100% */
+		}
+		li:hover {
+			color: #4c65e9;
+		}
+	</style>
+</head>
+<body>
+<ul>
+	<li>首页</li>
+	<li>Java</li>
+	<li>C++</li>
+</ul>
+<script type="text/javascript">
+
+</script>
+</body>
+</html>
