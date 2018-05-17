@@ -2,4 +2,4 @@
 
 ## 设计师学院
 
-- [x] No.1 - 制作一个简单的菜单动画效果
+- [x] [No.1 - 制作一个简单的菜单动画效果](https://msidolphin-pers.github.io/baiduft/1.html)
